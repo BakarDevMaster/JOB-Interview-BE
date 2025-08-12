@@ -57,5 +57,5 @@ docs/
 *.joblib
 *.h5
 *.pb
-models/
+# Note: Do NOT exclude app/models/ directory - it contains Python model classes
 checkpoints/
