@@ -21,9 +21,9 @@ email-validator==2.2.0
 
 # Note: Starlette is automatically included with FastAPI at compatible version
 
-# AI Service - Only if langchain service is actually used
-# langchain==0.3.12
-# langchain-google-genai==2.0.5
+# AI Service - Required for langchain service (app/services/langchain.py)
+langchain==0.3.12
+langchain-google-genai==2.0.5
 
 # REMOVED UNUSED PACKAGES:
 # - aiokafka (not imported anywhere)
