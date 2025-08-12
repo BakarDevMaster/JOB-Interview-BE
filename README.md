@@ -171,11 +171,6 @@ Once running, visit `/docs` for interactive API documentation with Swagger UI, o
 5. Ensure all tests pass
 6. Submit a pull request
 
-## License
 
-[Add your license information here]
 
-## Support
 
-For deployment issues, see [DEPLOYMENT.md](./DEPLOYMENT.md).
-For general questions, create an issue in the repository.
