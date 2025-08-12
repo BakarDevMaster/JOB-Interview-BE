@@ -1,16 +1,6 @@
-from fastapi import FastAPI
+# Vercel entry point - imports the main application
+from app.main import app
 
-# Create the most basic FastAPI app possible
-app = FastAPI()
-
-@app.get("/")
-def root():
-    return {"message": "Hello from Vercel!", "status": "working"}
-
-@app.get("/test")
-def test():
-    return {"test": "success", "platform": "vercel"}
-
-# Export for Vercel (multiple ways to ensure compatibility)
+# Export for Vercel
 handler = app
 application = app
