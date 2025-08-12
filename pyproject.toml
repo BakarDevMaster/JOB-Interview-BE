@@ -29,7 +29,6 @@ bcrypt = "4.0.1"
 pydantic-settings = "^2.2.1"
 sentry-sdk = {extras = ["fastapi"], version = "^1.42.0"}
 aiokafka = "^0.10.0"
-psycopg2 = "^2.9.9"
 langchain = "^0.3.4"
 langchain-google-genai = "^2.0.1"
 python-dotenv = "^1.0.1"
