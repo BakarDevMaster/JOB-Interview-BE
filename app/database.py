@@ -2,7 +2,8 @@ from sqlmodel import SQLModel, Session, create_engine
 from app.settings import DATABASE_URL
 
 # Use the actual secret value and ensure the psycopg v3 driver is used
-connection_string = DATABASE_URL.get_secret_value()
+# Starlette's Secret object needs to be cast to string, not use get_secret_value()
+connection_string = str(DATABASE_URL)
 
 # Normalize to psycopg v3 driver URL if user provided plain postgresql://
 if connection_string.startswith("postgresql://") and "+" not in connection_string.split(":", 1)[0]:
