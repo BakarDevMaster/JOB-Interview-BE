@@ -13,8 +13,7 @@ psycopg[binary]==3.2.3
 python-jose[cryptography]==3.3.0
 passlib[bcrypt]==1.7.4
 
-# Starlette - Used in settings.py (comes with FastAPI but explicit for settings)
-starlette==0.36.3
+# Note: Starlette is automatically included with FastAPI at compatible version
 
 # AI Service - Only if langchain service is actually used
 # langchain==0.3.12

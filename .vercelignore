@@ -20,9 +20,10 @@ wheels/
 .installed.cfg
 *.egg
 
-# Poetry files (use requirements.txt instead)
+# Poetry files (use requirements.txt instead) - CRITICAL for Vercel
 poetry.lock
 pyproject.toml
+*.lock
 
 # Development files
 .env
