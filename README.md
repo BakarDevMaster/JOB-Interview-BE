@@ -67,24 +67,6 @@ A FastAPI-based backend service for conducting AI-powered interviews using Googl
 - AI-powered question generation
 - Response evaluation
 
-## Environment Variables
-
-Create a `.env` file based on `.env.example`:
-
-```bash
-# Database Configuration
-DATABASE_URL=postgresql://username:password@host:5432/database_name
-TEST_DATABASE_URL=postgresql://username:password@host:5432/test_database_name
-
-# Google AI API Key
-GOOGLE_API_KEY=your_google_api_key_here
-
-# JWT Secret Key
-SECRET_KEY=your_super_secret_jwt_key_here
-
-# Environment
-ENVIRONMENT=production
-```
 
 ## Local Development
 
